@@ -6,7 +6,7 @@ from datetime import date, datetime
 
 # Load the pre-trained model
 with open("sales_forecasting_model.pkl", "rb") as model_file:
-    model = pickle.load(model_file)
+    #model = pickle.load(model_file)
 
 def main():
     st.title("Sales Forecasting Application")

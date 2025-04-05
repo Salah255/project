@@ -1,5 +1,5 @@
 import pickle  # Added import statement
-import yfinance as yf
+#import yfinance as yf
 import streamlit as st
 import numpy as np
 from datetime import date, datetime
